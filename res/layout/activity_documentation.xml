@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/app_header" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:singleLine="false"
+        android:text="This software is produced by the Technology Department of Jiangsu Xuande Information Technology Co. Ltd.\n
+It is mainly used for learning and knowledge base reserve.\n It can also be used as a visual reference for beginners to view Android development\n
+Due to the author&apos;s ability, some omissions in the software, translation errors, interface confusion, please forgive me
+Some problems will be solved in future versions.\n
+If you have any suggestions or doubts, please send an email to: liting_wy@163.com" />
+
+</LinearLayout>

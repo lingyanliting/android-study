@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+
+    <book
+        price="109.0"
+        出版日期="2008年" >
+Java
+    </book>
+    <book
+        price="108.0"
+        出版日期="2009年" >
+Java EE
+    </book>
+    <book
+        price="79.0"
+        出版日期="2009年" >
+Ajax
+    </book>
+
+</books>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/navigation_bar_height"
+    android:background="@color/header_background" >
+
+    <Button
+        android:id="@+id/top_back"
+        android:layout_width="@dimen/navigation_bar_height"
+        android:layout_height="match_parent"
+        android:background="@drawable/button_return" />
+
+    <TextView
+        android:id="@+id/top_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/test" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 定义一个属性 -->
+    <attr name="duration"></attr>
+    <!-- 定义一个styleable对象来组合多个属性 -->
+    <declare-styleable name="AlphaImageView">
+        <attr name="duration" />
+    </declare-styleable>
+    <declare-styleable name="ShimmerView">
+        <attr name="reflectionColor" format="color" />
+    </declare-styleable>
+
+    <string-array name="books">
+        <item>Java</item>
+        <item>Ajax</item>
+        <item>XML</item>
+        <item>Android</item>
+    </string-array>
+    <string-array name="gender_name_list">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="gender_value_list">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+    <string-array name="light_strength_list">
+        <item>弱光</item>
+        <item>中等</item>
+        <item>强光</item>
+    </string-array>
+    <string-array name="light_value_list">
+        <item>weak</item>
+        <item>medium</item>
+        <item>strong</item>
+    </string-array>
+
+    <!-- 定义一个Drawable数组 -->
+    <array name="plain_arr">
+        <item>@color/c1</item>
+        <item>@color/c2</item>
+        <item>@color/c3</item>
+        <item>@color/c4</item>
+        <item>@color/c5</item>
+        <item>@color/c6</item>
+        <item>@color/c7</item>
+        <item>@color/c8</item>
+        <item>@color/c9</item>
+    </array>
+    <!-- 定义字符串数组 -->
+    <string-array name="string_arr">
+        <item>@string/c1</item>
+        <item>@string/c2</item>
+        <item>@string/c3</item>
+        <item>@string/c4</item>
+        <item>@string/c5</item>
+        <item>@string/c6</item>
+        <item>@string/c7</item>
+        <item>@string/c8</item>
+        <item>@string/c9</item>
+    </string-array>
+
+</resources>

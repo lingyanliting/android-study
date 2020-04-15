@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xuandexinxi.android.study"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.xuandexinxi.android.study.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xuandexinxi.android.study.MainActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.basic.HelloWorldWorldActivity" />
+        <!-- UI -->
+        <activity android:name="com.xuandexinxi.android.study.view.ui.CodeViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.MixViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.CustomViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.LinearLayoutActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.TableLayoutActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.FrameLayoutActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.RelativeLayoutActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.GridLayoutActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.AbsoluteLayoutActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.TextViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.EditTextActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ButtonActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.CheckButtonActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ToggleButtonActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ClockActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ChronometerActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ImageViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ImageButtonActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.QuickContactBadgeActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.SimpleListViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ArrayAdapterListViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.SimpleAdapterListViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ListViewTithBaseAdapterActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.AutoCompleteTextViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.GridViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ExpandableListViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.SpinnerActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.AdapterViewFlipperActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.StackViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ProgressBarActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.TitleProgressBarActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.RatingBarActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.SeekBarActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ViewSwitcherActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ImageSwitcherActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.TextSwitcherActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ViewFlipperActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ToastActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.CalendarViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ChooseDateActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.NumberPickerActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.SearchViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.TabHostActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ScrollViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.NotificationActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.OtherActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.AlertDialogActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.DialogThemeActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.PopupWindowActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.DateDialogActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ProgressDialogActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.MenuActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ActivityMenuActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.MenuResActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.PopupMenuActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ContextMenuActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ActionBarActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ActionItemActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ActionHomeActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.FirstActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.SecondActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ActionViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ActionBarTabNavActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ActionBarSwipeNavActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.ui.ActionBarDropDownNavActivity" />
+        <!-- 3 -->
+        <activity android:name="com.xuandexinxi.android.study.view.event.EventQsActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.event.PlaneActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.event.SendSmsActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.event.ActivityListenerActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.event.AnonymousListenerActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.event.BindingTagActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.event.CallbackHandlerActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.event.PropagationActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.event.CustomViewActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.event.ConfigurationActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.event.ChangeCfgActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.event.HandlerActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.event.CalPrimeActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.event.AsyncTaskActivity" />
+        <!-- 4 -->
+        <activity android:name="com.xuandexinxi.android.study.view.activity.OtherActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.ExpandableListActivityTest" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.PreferenceActivityTest" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.StartActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.BundleActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.ResultActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.ActivityForResultActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.SelectCityActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.LifecycleActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.StandardModelActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.SingleTaskActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.SingleInstanceActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.SingleTopActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.OtherTestActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.FragmentTestActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.SeniorFragmentTestActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.BookDetailActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.FragmentLifecycleActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.SecondActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.ThreeActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.FourActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.FiveActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.activity.SixActivity" />
+        <!-- 5 -->
+        <activity android:name="com.xuandexinxi.android.study.view.intent.ComponentAttrActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.ActionAttrActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.SecondActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.ThreeActivity" >
+            <intent-filter>
+
+                <!-- 指定该Activity能响应Action为指定字符串的Intent -->
+                <action android:name="com.xuandexinxi.android.study.view.intent.ActionAttrActivity.CRAZYIT_ACTION" />
+                <!-- 指定该Activity能响应Action属性为helloWorld的Intent -->
+                <action android:name="helloWorld" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xuandexinxi.android.study.view.intent.ActionCateAttrActivity" />
+        <activity
+            android:name="com.xuandexinxi.android.study.view.intent.FourActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+
+                <!-- 指定该Activity能响应action为指定字符串的Intent -->
+                <action android:name="org.crazyit.intent.action.CRAZYIT_ACTION" />
+                <!-- 指定该Activity能响应category为指定字符串的Intent -->
+                <category android:name="org.crazyit.intent.category.CRAZYIT_CATEGORY" />
+                <!-- 指定该Activity能响应category为android.intent.category.DEFAULT的Intent -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xuandexinxi.android.study.view.intent.ActionDataActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.BeCalledActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.CalledActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.DataTypeAttrActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.DataTypeOverrideActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.IntentTabActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.NoCallActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.ReturnHomeActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.SchemeActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.SchemeHostPathActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.SchemeHostPortActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.SchemeHostPortPathActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.SchemeHostPortPathTypeActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.intent.SysActionActivity" />
+        <!-- 6 -->
+        <activity android:name="com.xuandexinxi.android.study.view.res.AnimationDrawableActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.res.AnimatorActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.res.ArrayResActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.res.AttrResActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.res.AlphaImageView" />
+        <activity android:name="com.xuandexinxi.android.study.view.res.ClipDrawableActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.res.DpiSuitActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.res.LayerDrawableActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.res.RawResActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.res.ScreenSizeActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.res.ShapeDrawableActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.res.StateListDrawableActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.res.StyleResActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.res.ValuesResActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.res.XmlResActivity" />
+        <activity android:name="com.xuandexinxi.android.study.view.documentation.DocumentationActivity" />
+    </application>
+
+</manifest>
